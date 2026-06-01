@@ -24,8 +24,8 @@ Built entirely in Power BI Desktop using DAX measures, a custom star-schema data
 
 ## Data Source
 
-**Source:** Google Trends (trends.google.com)
-**Method:** Exported via Google Trends API and manual CSV exports, then cleaned, normalised, and loaded into Power BI
+**Source:** Google Trends via BigQuery public dataset (bigquery-public-data.google_trends)
+**Method:** Pulled directly into Power BI via BigQuery connector, then cleaned, normalised, and loaded into Power BI
 **Date range:** 28 March 2021 — 26 April 2026
 **Geographic coverage:** 40 countries across Asia, Europe, Africa, the Americas, and Oceania
 **Granularity:** Weekly scores (0–100 relative interest scale), sub-national regions, per-term
@@ -186,7 +186,7 @@ Used to identify which terms generate search interest across multiple markets si
 - **Tool:** Microsoft Power BI Desktop
 - **Data model:** Star schema, 5 fact tables, 4 dimension tables
 - **Query language:** DAX (24 custom measures)
-- **Data source:** Google Trends API + CSV exports
+- **Data source:** BigQuery public dataset (bigquery-public-data.google_trends)
 - **Visuals:** Filled map, treemap, bubble scatter, multi-line chart, combo chart, decomposition tree, clustered bar, matrix, donut, KPI cards
 - **Rows processed:** ~3.2 million across all tables
 
@@ -204,28 +204,3 @@ Used to identify which terms generate search interest across multiple markets si
 
 ---
 
-## Repository Structure
-
-```
-google-trends-dashboard/
-├── README.md                    ← this file
-├── SQl_Latest.pbix              ← Power BI Desktop file
-├── data/
-│   ├── global_trend_momentum.csv
-│   ├── global_lifecycle.csv
-│   ├── regional_hotspot_analysis.csv
-│   ├── global_vs_local.csv
-│   └── cross_country_trend.csv
-├── screenshots/
-│   ├── page1_executive_overview.png
-│   ├── page2_trend_momentum.png
-│   ├── page3_geographic_hotspot.png
-│   └── page4_global_vs_local.png
-└── docs/
-    └── data_dictionary.md
-```
-
----
-
-*Built by [Your Name] · Data Analyst · [Year]*
-*Data source: Google Trends (trends.google.com) · Public data, non-commercial analysis*
