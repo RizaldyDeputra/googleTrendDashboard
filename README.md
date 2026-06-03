@@ -1,4 +1,4 @@
-# 🌐 Global Trend Intelligence Dashboard
+# Global Trend Intelligence Dashboard
 ### Google Trends · Power BI · 5-Year Analysis · 42 Countries · 3.1M Data Points
 
 ---
