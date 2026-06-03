@@ -177,7 +177,7 @@ Used to identify which terms generate search interest across multiple markets si
 
 5. **High-scoring countries are declining, low-scoring countries are rising.** In the lifecycle scatter: Thailand, Romania, and Vietnam (scores 52, 51, 47) all show negative weekly growth. UK, Germany, and Belgium (scores 20, 25, 28) show positive growth. Trend intensity and trend trajectory are inversely correlated at country level — markets that peaked first are now declining fastest.
 
-6. **pam bondi reaches 34 countries** — the widest any single term spans in this dataset. For comparison, psg reaches 33 and real madrid reaches 32. Sports and political news dominate the genuinely global tier.
+6. **Pam Bondi reaches 34 countries** — the widest any single term spans in this dataset. For comparison, psg reaches 33 and real madrid reaches 32. Sports and political news dominate the genuinely global tier.
 
 ---
 
